@@ -1,2 +1,2 @@
-# Soal1
-Soal nomor 1
+# Soal2
+Soal nomor 2
