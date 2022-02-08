@@ -1,0 +1,84 @@
+.container{
+    display: grid;
+    height: 100%;
+    margin-left: 3px 3px 3px 3px;
+    grid-template-columns: 20% 35% 15% 15% 15%;
+    grid-auto-rows: 80px 80px 240px 240px 80px;
+    grid-template-areas:
+        "site site nav1 nav2 nav3"
+        "post post post post side"
+        "meta main main main ads"
+        "meta img img img others"
+        "foot foot foot foot foot";
+    grid-gap: 3px;
+    text-align: center;
+    text-transform: uppercase;
+    align-content: center;
+}
+/*kumpulan nav*/
+.nav1{
+    background-color: coral;
+    grid-area: nav1;
+    line-height: 75px;
+}
+.nav2{
+    background-color: coral;
+    grid-area: nav2;
+    line-height: 75px;
+}
+.nav3{
+    background-color: coral;
+    grid-area: nav3;
+    line-height: 75px;
+}
+
+/*post title, site title, post-meta, main, main-img*/
+.site-title{
+    background-color: orange;
+    grid-area: site;
+    line-height: 75px;
+}
+.post-title{
+    background-color: aqua;
+    grid-area: post;
+    line-height: 75px;
+}
+.post-meta{
+    background-color: yellowgreen;
+    grid-area: meta;
+    line-height: 480px;
+}
+.main-content{
+    background-color: aquamarine;
+    grid-area: main;
+    line-height: 240px;
+}
+.main-content-img{
+    background-color: lime;
+    grid-area: img;
+    line-height: 240px;
+}
+
+/*sidebar, others, ads*/
+.sidebar{
+    background-color: orangered;
+    grid-area: side;
+    line-height: 75px;
+}
+.ads{
+    background-color: gold;
+    grid-area: ads;
+    line-height: 240px;
+
+}
+.others{
+    background-color: pink;
+    grid-area: others;
+    line-height: 240px;
+}
+
+.footer{
+    background-color: brown;
+    grid-area: foot;
+    line-height: 75px;
+}
