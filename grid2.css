@@ -3,7 +3,7 @@
     height: 100%;
     margin-left: 3px 3px 3px 3px;
     grid-template-columns: 20% 35% 15% 15% 15%;
-    grid-auto-rows: 80px 80px 240px 240px 80px;
+    grid-template-rows: 80px 80px 240px 240px 80px;
     grid-template-areas:
         "site site nav1 nav2 nav3"
         "post post post post side"
