@@ -82,3 +82,37 @@
     grid-area: foot;
     line-height: 75px;
 }
+
+/*Ketika dibuka di HP*/
+@media ( max-width: 700px ) {
+    .container{
+        display: grid;
+        grid-template-columns: 150px 150px 150px;
+        grid-template-rows: 80px 80px 80px 190px 180px 100px 130px 70px;
+        grid-template-areas: 
+        "site site site"
+        "post post post"
+        "nav1 nav2 nav3"
+        "meta main main"
+        "side main main"
+        "ads img img"
+        "others img img"
+        "foot foot foot";
+    }
+
+    .post-meta{
+        line-height: 190px;
+    }
+    .others{
+        line-height: 130px;
+    }
+    .ads{
+        line-height: 100px;
+    }
+    .sidebar{
+        line-height: 180px;
+    }
+    .main-content{
+        line-height: 370px;
+    }
+}
